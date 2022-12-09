@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300;1,400&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;0,900;1,400&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+}
+
+form{
+    background-color: antiquewhite;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 40px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+.inputs{
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px ;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,0.3)
+}
+
+.radio-check{
+    margin-bottom: 20px;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn-container input{
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color:hsl(299, 100%, 80%);
+    padding: 10px;
+}
+
+.btn-container input:hover{
+    background-color: hsl(299, 100%, 40%);
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
